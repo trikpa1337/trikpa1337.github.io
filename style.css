@@ -65,7 +65,7 @@ a {
 
   margin-top: 350px;
   text-align: center;
-}  
+}
 
 .killFeed {
   margin-top: 15px;
@@ -106,6 +106,75 @@ a {
   background-size: cover;
   float: left;
 }
+
+.weapon.usp {
+  margin-top: 8px;
+  height: 25px;
+  width: 80px;
+  background: url(http://i.imgur.com/dT1EGjU.png) no-repeat;
+  background-size: cover;
+  float: left;
+}
+
+
+.weapon.awp {
+  margin-top: 8px;
+  height: 25px;
+  width: 80px;
+  background: url("http://i.imgur.com/i5Euh7o.png") no-repeat;
+  background-size: cover;
+  float: left;
+}
+
+.headshot.true {
+  margin: 8px 0px 0px 10px;
+  height: 22px;
+  width: 22px;
+  background-image: url(http://csgo-mates.com/img/headshot-black.png)
+  background-size: cover;
+  float: left;
+}
+
+.wallbang {
+  float: left;
+}
+
+.wallbang.true {
+  margin: 8px 0px 0px 10px;
+  height: 22px;
+  width: 22px;
+  background: url(http://i.imgur.com/FmmFb28.png);
+  background-size: cover;
+  float: left;
+}
+
+.headshot {
+  float: left;
+}
+
+.killed {
+  margin-left: 10px;
+  color: #71A6FF;
+  line-height: 40px;
+  display: inline-block;
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .box
 {
