@@ -65,6 +65,46 @@ a {
 
   margin-top: 350px;
   text-align: center;
+}  
+
+.killFeed {
+  margin-top: 15px;
+  min-width: 100px;
+  position: relative;
+  display: inline-block;
+  height: 40px;
+  background: rgba(0,0,0,0.5);
+  border: 2px #B50000 solid;
+  border-radius: 6px;
+  padding: 0 10px;
+  transform: scale(1);
+  transition: .1s;
+}
+
+.killFeed:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 10px rgba(111, 0, 0, 0.5);
+}
+
+.killer {
+  color: #ECCE51;
+  line-height: 40px;
+  display: inline-block;
+  margin-right: 10px;
+  float: left;
+}
+
+.weapon {
+  float: left;
+}
+
+.weapon.ak47 {
+  margin-top: 8px;
+  height: 25px;
+  width: 80px;
+  background: url(http://i.imgur.com/fZlAs4p.png) no-repeat;
+  background-size: cover;
+  float: left;
 }
 
 .box
